@@ -1,0 +1,243 @@
+Assessment
+
+Explain constructor chaining using this() with example.
+Explain default values assigned to instance variables in java with example
+Write a java Program to perform CRUD operations on an array:
+create an array
+read/display items
+update elements
+delete elements
+Write program to demonstrate a default constructor.
+Write a program using a parameterized constructor
+6. 1what is constructor and who provides constructor
+7.
+8.
+
+
+
+Answers:
+class Employee {
+String name;
+int id;
+
+Employee(String name, int id) {
+this.name = name;
+this.id = id;
+}
+
+void display() {
+System.out.println(name + " " + id);
+}
+public static void main(String[] args) {
+Employee e = new Employee("Shreyaa", 101);
+e.display();
+}
+}
+
+this keyword is used when there are same variable names in the same class this helps to invoke or call the get methods
+      Ex: this.getProductDetails();
+
+2)
+class Amazon{
+String name;
+int Id;
+
+public static getInfo(){
+System.out.println(name);
+System.out.println(Id);
+}
+public static void main(String[] args){
+System.out.println("The product  invoked);
+Amazon amazon = new Amazon();
+amazon.name;
+amazon.Id;
+
+amazon.getInfo();
+}}
+
+
+    
+3) class Amazon{
+
+Product products[] = new Product[3]
+int index;
+
+public static addProduct(Product product){
+System.out.println("adding invoked");
+
+Boolean isProductAdded = false;
+if
+(index < products.length)
+{
+if(product != null && product.isEmpty(){
+product[index++] = product;
+isProductsAdded = true;
+}else{
+System.out.println("Not found");
+}}else{
+System.out.println("invalid");
+}
+return isProductAdded;
+}
+
+public void getProductDetails(){
+System.out.println("get method invoked");
+for(String product : products){
+System.out.println(product);
+}}
+
+
+public boolean updateProductDetails(String oldProduct, String newProduct){
+System.out.println("invoked");
+Boolean isUpdated = false;
+for(int index = 0; index < products.length; index++){
+if(products[index] == oldProduct){
+products[index] == newProduct;
+isProductUpdated = true;
+}
+}
+if(isProductUpdated == false){
+System.out.println(newPProduct + "nopee")'
+
+}
+return isProductUpdated;
+
+public boolean deleteProducts(){
+System.out.println("Delete invoked");
+boolean isDeleted = false;
+for(int
+if(isProductDelete == false){
+System.out.println("deleted");
+}
+
+
+
+class AmazonExecutor{
+public static void main(String[] args){
+
+Product product = new Peoduct();
+
+boolean added = product.addProduct("Doll");
+System.out.println(added);
+
+added = product.addProduct("Laptop");
+System.out.println(added);
+
+product.getProuctDetails();
+
+boolean update = product.updateProduct("Doll", "Chocolate");
+System.out.println(update);
+
+product.getProductDetails();
+
+boolean delete = product.deleteProduct("Laptop");
+System.out.println(delete);
+
+product.getProductDetails();
+
+
+4).
+class Amazon{
+
+Amazon(){
+System.out.println("invoked");
+}
+
+public static void main(String[] a){
+Amazon name = new Amazon();
+}}
+
+5). 
+class Employee {
+String name;
+int id;
+
+Employee(String name, int id) {
+this.name = name;
+this.id = id;
+}
+
+void display() {
+System.out.println(name + " " + id);
+}
+public static void main(String[] args) {
+Employee e = new Employee("Shreyaa", 101);
+e.display();
+}
+}
+
+6).What is constructor and who provides constructor?
+The constructor is a special type of keyword which uses the same type of variables but has no return types.
+The default constructor is provided by the Compiler.
+
+7).
+Costructor can not have return types because it is a special type of method that used to only initialize the object variables i.e to instance variables.
+
+class Amazon{
+
+Amazon(){
+System.out.println("invoked");
+}
+
+public static void main(String[] a){
+Amazon name = new Amazon();
+}}
+
+
+8). 
+class Laptop{
+int laptopVer;
+String brand;
+Laptop laptop;
+
+public void getLaptopDetails{
+System.out.println("Invoked");
+System.out.println("The laptop version is: " + laptopVer);
+System.out.println("Brand name is: " + brand);
+laptop.getLaptopDetails();
+System.out.println("invoke ended");
+
+class Keyboard{
+int Id;
+String color;
+Keyboard keyboard;
+
+public void getKeyboardDetails{
+System.out.println("invoked");
+System.out.println("The keyboard is is: " + Id);
+System.out.println("The keyboard color is : " + color);
+keyboard.getKeyboardDetails();
+System.out.println("invokaction ended");
+
+class LaptopExecutor{
+public static void main(String[] ars){
+
+
+Laptop laptop = new Laptop();
+Keyboard keyboard = new Keyboard();
+
+laptop.Id = 5;
+laptop.brand = hp;
+keyboard.
+
+laptop.keyboard = keyboard; // has a relationship
+
+Laptop.getLaptopDetails();
+
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
